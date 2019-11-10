@@ -10,6 +10,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.control.*;
+import javafx.scene.input.KeyEvent;
 
 /**
  * Created by nickg on 10/29/2019.
@@ -29,7 +30,9 @@ public class LandingController implements Initializable {
         System.out.println("Initialized.");
     }
 
-    public void checkLogin(ActionEvent event) throws IOException {
+
+    @FXML
+    public void checkLogin(){
         System.out.println(usernameField.getText());
     }
 }

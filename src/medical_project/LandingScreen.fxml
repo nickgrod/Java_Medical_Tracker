@@ -50,7 +50,7 @@
                               <Insets right="10.0" />
                            </HBox.margin>
                         </Button>
-                        <Button fx:id="loginButton" mnemonicParsing="false" onAction="#checkLogin" onMouseClicked="#checkLogin" style="-fx-background-color: #c1e673;" text="Login" textFill="WHITE">
+                        <Button fx:id="loginButton" mnemonicParsing="false" onAction="#checkLogin" style="-fx-background-color: #c1e673;" text="Login" textFill="WHITE">
                            <font>
                               <Font size="14.0" />
                            </font>
